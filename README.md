@@ -28,6 +28,8 @@ long maxIndex();
     
 ## Optional API
 
+CompletableFuture<OMAppendResult> append(OMEntry entry, OMAppendHook hook);
+
 OMBufferHolder slice(long startPos, int size);
  
 long minPos();
